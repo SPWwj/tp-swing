@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<fx:root resizable="false" title="Table" type="javafx.stage.Stage" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<scene>
+    <Scene>
+        <stylesheets>
+            <URL value="@TableWindow.css" />
+        </stylesheets>
+
+        <TableView styleClass="table-view"></TableView>
+
+    </Scene>
+</scene>
+</fx:root>
